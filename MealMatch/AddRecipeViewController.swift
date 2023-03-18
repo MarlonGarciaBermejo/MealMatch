@@ -8,22 +8,34 @@
 import UIKit
 
 class AddRecipeViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    
+    
+    
+    @IBOutlet weak var recipeName: UITextField!
+    
+    @IBOutlet weak var addIngredients: UITextField!
+    
+    @IBOutlet weak var addInstructions: UITextField!
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+  
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // Do any additional setup after loading the view.
+        }
+        
+        @IBAction func addButton(_ sender: UIButton) {
+            
+            guard let name = recipeName.text, !name.isEmpty,
+                  let ingredients = addIngredients.text, !ingredients.isEmpty,
+                  let instructions = addInstructions.text, !instructions.isEmpty else {
+                return
+                
+            }
+            let Recipe = Recipe(name: name, ingredients: ingredients, instructions: instructions)
+            DataManagerRecipe.listOfRecipes.append(Recipe)
+            dismiss(animated: true, completion: nil)
+        }
     }
-    */
 
-}

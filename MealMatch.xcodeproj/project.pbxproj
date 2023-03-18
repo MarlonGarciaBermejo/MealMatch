@@ -16,6 +16,9 @@
 		C754F78C29C48D3C0096A7ED /* MealMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754F78B29C48D3C0096A7ED /* MealMatchTests.swift */; };
 		C754F79629C48D3C0096A7ED /* MealMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754F79529C48D3C0096A7ED /* MealMatchUITests.swift */; };
 		C754F79829C48D3C0096A7ED /* MealMatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754F79729C48D3C0096A7ED /* MealMatchUITestsLaunchTests.swift */; };
+		C754F7A529C615C20096A7ED /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754F7A429C615C20096A7ED /* AddRecipeViewController.swift */; };
+		C754F7A929C6179B0096A7ED /* DataManagerRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754F7A829C6179B0096A7ED /* DataManagerRecipe.swift */; };
+		C754F7AD29C62E410096A7ED /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754F7AC29C62E410096A7ED /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C754F79129C48D3C0096A7ED /* MealMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C754F79529C48D3C0096A7ED /* MealMatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMatchUITests.swift; sourceTree = "<group>"; };
 		C754F79729C48D3C0096A7ED /* MealMatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C754F7A429C615C20096A7ED /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		C754F7A829C6179B0096A7ED /* DataManagerRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerRecipe.swift; sourceTree = "<group>"; };
+		C754F7AC29C62E410096A7ED /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				C754F77D29C48D3B0096A7ED /* Assets.xcassets */,
 				C754F77F29C48D3B0096A7ED /* LaunchScreen.storyboard */,
 				C754F78229C48D3B0096A7ED /* Info.plist */,
+				C754F7A429C615C20096A7ED /* AddRecipeViewController.swift */,
+				C754F7A829C6179B0096A7ED /* DataManagerRecipe.swift */,
+				C754F7AC29C62E410096A7ED /* RecipeViewController.swift */,
 			);
 			path = MealMatch;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C754F7A529C615C20096A7ED /* AddRecipeViewController.swift in Sources */,
 				C754F77929C48D3A0096A7ED /* ViewController.swift in Sources */,
+				C754F7AD29C62E410096A7ED /* RecipeViewController.swift in Sources */,
+				C754F7A929C6179B0096A7ED /* DataManagerRecipe.swift in Sources */,
 				C754F77529C48D3A0096A7ED /* AppDelegate.swift in Sources */,
 				C754F77729C48D3A0096A7ED /* SceneDelegate.swift in Sources */,
 			);
